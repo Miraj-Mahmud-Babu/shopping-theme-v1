@@ -32,8 +32,8 @@ document.querySelectorAll(".search_icon").forEach(function (ev) {
 // })
 
 
-document.querySelectorAll(".icon").forEach(function(el){
+document.querySelectorAll(".search-icon").forEach(function(el){
   el.addEventListener("click", function(){
-   el.closest(".main-search-icon").classList.toggle("active");
+   el.closest(".main-search-icon").classList.toggle("search-active");
   })
 })

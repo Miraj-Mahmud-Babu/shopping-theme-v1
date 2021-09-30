@@ -1660,7 +1660,7 @@ input.search-input-box-design {
   border: none;
   transition: all 0.5s;
 }
-.icon{
+.search-icon{
   height: 60px;
   width: 60px;
   display: flex;
@@ -1672,12 +1672,12 @@ input.search-input-box-design {
   transform: translateX(-30px);
 }
 
-.icon span{
+.search-icon span{
   transform: rotate(-45deg);
 }
 
 
-.active input {
+.search-active .search-input {
   width: 480px;
   border-bottom: 1px solid;
 }
