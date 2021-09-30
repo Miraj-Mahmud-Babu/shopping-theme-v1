@@ -37,3 +37,10 @@ document.querySelectorAll(".search-icon").forEach(function(el){
    el.closest(".main-search-icon").classList.toggle("search-active");
   })
 })
+
+
+document.querySelectorAll(".search-icon-header").forEach(function(ev){
+  ev.addEventListener("click", function(){
+   ev.closest(".main-search-icon-header").classList.toggle("search-active-header");
+  })
+})
