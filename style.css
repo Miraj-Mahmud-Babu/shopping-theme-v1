@@ -175,7 +175,7 @@ span.nav_item_icon {
   /* overflow: hidden; */
   -webkit-transition: opacity 0.3s ease-in;
   -moz-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
+  transition: all 0.3s;
   opacity: 0;
   z-index: -1;
 }
@@ -1657,10 +1657,6 @@ input.search-input-box-design {
   width: 0;
   outline: none;
   padding-left: 10px;
-  /* border-bottom: 1px solid; */
-  /* border-left: none; */
-  /* border-right: none; */
-  /* border-top: none; */
   border: none;
   transition: all 0.5s;
 }
