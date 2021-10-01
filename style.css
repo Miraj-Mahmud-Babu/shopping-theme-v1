@@ -1683,6 +1683,11 @@ input.search-input-box-design {
   /* font-size: 16px; */
 }
 
+.search-active .search-icon{
+  opacity: 0.3;
+}
+
+
 .main-search-icon-header {
   display: flex;
   justify-content: center;
@@ -1701,8 +1706,7 @@ input.search-input-box-design {
   /* transition: all 0.5s; */
 }
 .search-icon-header{
-  /* height: 60px; */
-  /* width: 60px; */
+
   display: flex;
   justify-content: center;
   align-items: center;
