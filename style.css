@@ -1647,6 +1647,7 @@ input.search-input-box-design {
   justify-content: center;
   align-items: center;
   z-index: 1;
+  font-size: 16px;
 }
 
 .search-input {
@@ -1657,6 +1658,7 @@ input.search-input-box-design {
   padding-left: 10px;
   border: none;
   transition: all 0.5s;
+  font-size: 16px;
 }
 .search-icon{
   height: 60px;
@@ -1678,7 +1680,7 @@ input.search-input-box-design {
 .search-active .search-input {
   width: 480px;
   border-bottom: 1px solid #c9c9c9;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .main-search-icon-header {

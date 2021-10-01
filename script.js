@@ -44,3 +44,23 @@ document.querySelectorAll(".search-icon-header").forEach(function(ev){
    ev.closest(".main-search-icon-header").classList.toggle("search-active-header");
   })
 })
+
+
+
+// moduls item 
+
+
+const modalsListItems = document.querySelector(".search-input-header");
+console.log(modalsListItems);
+const mainParent = document.querySelector(".main-search-icon-header");
+
+document.addEventListener("click", function (event) {
+    if (!event.target.closest(".main-search-icon-header")) {
+        modalsListItems.style.visibility = "hidden";
+    }
+    else {
+      modalsListItems.style.visibility = "visible"; 
+    }
+
+
+});
